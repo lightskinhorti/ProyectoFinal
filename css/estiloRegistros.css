@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.form-container {
+    background-color: #333;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.form {
+    color: white;
+}
+
+.form h2 {
+    color: #56d8e4;
+}
+.boton-azul {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.boton-azul:hover {
+    background-color: #2980b9;
+    text-decoration: none; /* Elimina el subrayado al pasar el cursor sobre el botón */
+}
+
+.boton-azul a {
+    color: white; /* Establece el color del texto a blanco */
+    text-decoration: none; /* Elimina el subrayado del texto */
+}
+
+.boton-azul a:hover {
+    color: white; /* Mantén el color del texto blanco al pasar el cursor */
+    text-decoration: none; /* Elimina el subrayado del texto al pasar el cursor */
+}
+    
